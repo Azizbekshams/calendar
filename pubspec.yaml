@@ -1,0 +1,45 @@
+name: calendar
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0-180.0.dev <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.8
+  flutter_colorpicker: ^1.1.0
+  sqflite: ^2.3.3+1
+  path_provider: ^2.1.4
+  bloc: ^8.1.4
+  flutter_bloc: ^8.1.6
+  freezed_annotation: ^2.2.0
+  json_annotation: ^4.8.1
+  equatable: ^2.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  auto_route_generator: ^7.2.0
+  build_runner: ^2.3.3
+  freezed: ^2.3.2
+  json_serializable: ^6.6.1
+
+
+  flutter_lints: ^4.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
